@@ -1,7 +1,7 @@
 # UFOs
 
 ## _**Overview**_ 
-The assigment consists of a build of Dana’s UFO Finder webpage with a dynamic table that provides an in-depth analysis of UFO sightings by allowing users to filter for multiple criteria, date of the siting, city, state, country, and shape of the UFO, all at the same time. The webpage uses javascript to pull in a table of data to filter, and build the D3 events to activate the user's manual entry filters. Webpage style and formatting is done with Bootstrap and CSS. 
+This assigment consists of a build of Dana’s UFO Finder webpage with a dynamic table that provides an in-depth analysis of UFO sightings by allowing users to filter for multiple criteria, date of the siting, city, state, country, and shape of the UFO, all at the same time. The webpage uses javascript to pull in a table of data to filter, and build the D3 events to activate the user's manual entry filters. Webpage style and formatting is done with Bootstrap and CSS. 
 
 ## _**Results**_
 ### Files:
@@ -27,4 +27,4 @@ The assigment consists of a build of Dana’s UFO Finder webpage with a dynamic 
 ![DualFilter](https://user-images.githubusercontent.com/90797036/144683727-69d9f69f-dbc2-41b9-aedd-61b3f9f8e8ae.png)</b>
 
 ## _**Summary**_
-In summary the UFO Finder webpage is neat in that it allows for filtering for many things. There is room, however for improvement. The filter feature is case sensitive, and currenlty there is only data for the US, so the country filter is unneccessary. Perhaps upgrading the filter formating, and hidding filters that have only one options. Or it would be great to add a way for users to add their own sitings to enhance the volume of data.
+In summary the UFO Finder webpage is neat in that it allows for filtering for many things. There is room, however for improvement. The filter feature is case sensitive, and currenlty there is only data for the US, so the country filter is unneccessary. Perhaps upgrading the filter formating, and hidding filters that have only one option would be best. Or it would be great to add a way for users to add their own sitings to enhance the volume of data.
