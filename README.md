@@ -11,7 +11,7 @@ This assigment consists of a build of Dana’s UFO Finder webpage with a dynamic
 - static/images/nasa.jpg as header background image
 - static/css/style.css as styling and formatting for the webpage</b>
 
-### UFO Finder Webpage:</b>
+### UFO Finder Webpage Index:</b>
 ![Snap170](https://user-images.githubusercontent.com/90797036/144683532-0f6a2582-4a7e-4e76-ab06-81a66ef83e01.png)</b>
 
 ### UFO Finder Webpage Filtered by Date:</b>
