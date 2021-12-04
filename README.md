@@ -10,6 +10,7 @@ This assigment consists of a build of Dana’s UFO Finder webpage with a dynamic
 - static/js/data.js as table data of all recorded sitings
 - static/images/nasa.jpg as header background image
 - static/css/style.css as styling and formatting for the webpage</b>
+- static/js/sorttable.js to make table sortable</b>
 
 ### UFO Finder Webpage Index:</b>
 ![Snap170](https://user-images.githubusercontent.com/90797036/144722933-ba911c93-ba34-4b96-8640-db2cceab5c20.png)</b>
