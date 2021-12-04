@@ -12,6 +12,7 @@
     crossorigin="anonymous"
     />
     <link rel="stylesheet" href="static/css/style.css">
+    <script src="static/js/sorttable.js"></script>
 </head>
 <body class="bg-dark">
     <!--Navigation Bar!-->
@@ -28,13 +29,13 @@
     <div class="container-fluid">
         <div class="row">
             <!--Article Title!-->
-            <div class="col-md-4">
-                <h3>UFO Sightings: Fact of Fancy? 
+            <div class="col-md-3">
+                <h3>UFO Sightings: Fact of Fancy?<br> 
                     <small>Ufologists Weigh In</small>
                 </h3>
             </div>
             <!--Article Paragraph!-->
-            <div class="col-md-8">
+            <div class="col-md-9">
                 <p>
                 Are we alone in the universe? For millennia, humans have turned to the sky to answer this question.
                 Now, thanks to research generously funded by W. Avy, a UFO-enthusiast and amateur ufologist, 
@@ -65,30 +66,30 @@
                 </form>
                 <ul class="list-group bg-dark">
                     <li class="list-group-item bg-dark">
-                        <label for="date" class="bg-dark"> Enter Date </label>
+                        <label for="date" class="bg-dark"> Enter Date </label><br>
                         <input type="text" placeholder="1/10/2010" id="datetime" />
                     </li>
                     <li class="list-group-item bg-dark">
-                        <label for="date" class="bg-dark"> Enter City </label>
+                        <label for="date" class="bg-dark"> Enter City </label><br>
                         <input type="text" placeholder="phoenix" id="city" />
                     </li>
                     <li class="list-group-item bg-dark">
-                        <label for="date" class="bg-dark"> Enter State </label>
+                        <label for="date" class="bg-dark"> Enter State </label><br>
                         <input type="text" placeholder="ca" id="state" />
                     </li>
                     <li class="list-group-item bg-dark">
-                        <label for="date" class="bg-dark"> Enter Country </label>
+                        <label for="date" class="bg-dark"> Enter Country </label><br>
                         <input type="text" placeholder="us" id="country" />
                     </li>
                     <li class="list-group-item bg-dark">
-                        <label for="date" class="bg-dark"> Enter Shape </label>
+                        <label for="date" class="bg-dark"> Enter Shape </label><br>
                         <input type="text" placeholder="sphere" id="shape" />
                     </li>
                 </ul>     
             </div>            
             <!--Table of sightings data!-->
             <div class="col-md-9">
-                <table class="table table-striped">
+                <table class="sortable table table-striped">
                   <thead>
                     <tr>
                         <th>Date</th>
@@ -109,5 +110,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
   <script src="static/js/data.js"></script>
   <script src="static/js/app.js"></script>
+  
 </body>
 </html>

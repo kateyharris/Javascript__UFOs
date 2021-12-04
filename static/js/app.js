@@ -63,16 +63,16 @@ function updateFilters() {
   
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
-    // *****Need to work on this****
-    Object.entries(filters).forEach(([key,value]) => {
-      filteredData = filteredData.filter(row => row[key] === value);
-    });
+
+    for(let key in filters) {
+      filteredData = filteredData.filter(row =>row[key] === filters[key]);
+    }
   
     // 10. Finally, rebuild the table using the filtered data
     buildTable(filteredData); };
   
   // 2. Attach an event to listen for changes to each filter
-  d3.selectAll("input").on("change", updateFilters);
+  d3.selectAll("input").on("input", updateFilters);
   
   // Build the table when the page loads
   buildTable(tableData);
